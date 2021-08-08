@@ -6,7 +6,9 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'SZUI',
   description: 'Just playing around',
   base: '/SZ-UI/',
+
   themeConfig: {
+    
     logo: 'https://vuejs.org/images/logo.png',
     sidebar: [
       {
@@ -20,6 +22,20 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: 'Badge', 
         link: '/Badge/',
+      },
+      {
+        text: 'Upload', 
+        
+        children: [
+          {
+            text: 'FileInput', 
+            link: '/Upload/FileInput.md',
+          },
+          {
+            text: 'SZFileDrop', 
+            link: '/Upload/DropInput.md',
+          },
+        ]
       },
     ]
   },

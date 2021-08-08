@@ -2,15 +2,15 @@
 <!-- Type -->
 <Block title="Type" :gap="50">
   <SZBadge data="Hello" type="primary">
-    <SZButton>Button</SZButton>
+    <SZButton>primary</SZButton>
   </SZBadge>
 
   <SZBadge data="0" type="warning">
-    <SZButton outline type="primary">Button</SZButton>
+    <SZButton outline type="primary">warning</SZButton>
   </SZBadge>
 
   <SZBadge data="999+" type="danger">
-    <SZButton type="primary">Button</SZButton>
+    <SZButton type="primary">danger</SZButton>
   </SZBadge>
 </Block>
 
@@ -18,19 +18,26 @@
 <summary class="show-code-btn">Show Code</summary>
 
 ```html
-<SZBadge data="Hello" type="primary">
-  <SZButton>Button</SZButton>
-</SZBadge>
+  <SZBadge data="Hello" type="primary">
+    <SZButton>primary</SZButton>
+  </SZBadge>
 
-<SZBadge data="0" type="warning">
-  <SZButton outline type="primary">Button</SZButton>
-</SZBadge>
+  <SZBadge data="0" type="warning">
+    <SZButton outline type="primary">warning</SZButton>
+  </SZBadge>
 
-<SZBadge data="999+" type="danger">
-  <SZButton type="primary">Button</SZButton>
-</SZBadge>
+  <SZBadge data="999+" type="danger">
+    <SZButton type="primary">danger</SZButton>
+  </SZBadge>
 ```
 </details>
+
+### Props
+| Props    | Types    | description
+| ---------| ---------| -------
+| data     | String   | badge content
+| type     | String   | primary / warning / danger
+
 
 <script>
 import Block from '/docs/components/Block.vue'
@@ -43,3 +50,9 @@ export default {
   }
 }
 </script>
+
+<style>
+table {
+    width:100%;
+}
+</style>

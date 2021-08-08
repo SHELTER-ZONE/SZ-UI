@@ -44,6 +44,14 @@
 ```
 </details>
 
+### Props
+| Props    | Types    | description
+| ---------| ---------| -------
+| type     | String   | primary / warning / danger
+| outline  | Boolean  | toggle outline style
+| dashed   | Boolean  | toggle dashed style
+
+
 <script>
 import Block from '/docs/components/Block.vue'
 import {SZButton} from 'shelter-zone-ui'
