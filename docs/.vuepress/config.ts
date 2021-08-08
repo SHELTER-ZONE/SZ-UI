@@ -5,7 +5,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'en-US',
   title: 'SZUI',
   description: 'Just playing around',
-  base: 'https://shelter-zone.github.io/SZ-UI/',
+  base: '/SZ-UI/',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
     sidebar: [
