@@ -3151,6 +3151,13 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+shelter-zone-ui@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/shelter-zone-ui/-/shelter-zone-ui-0.1.6.tgz#8897e05499bb41bf5b8129c61b87fed5afd883f2"
+  integrity sha512-iEqz2NzEaUUN+RyMY0KQNo+saRwbf4YoRKlUAXRTjZUZVhzdOiWiu5r3iu/x5MQFafdwE5U1NEolBimsm953vA==
+  dependencies:
+    vue "^3.0.5"
+
 signal-exit@^3.0.2, signal-exit@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
@@ -3473,7 +3480,7 @@ vue-router@^4.0.10:
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.14"
 
-vue@^3.1.5:
+vue@^3.0.5, vue@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.1.5.tgz#12879b11d0685ee4478c8869551799630a52f9fe"
   integrity sha512-Ho7HNb1nfDoO+HVb6qYZgeaobt1XbY6KXFe4HGs1b9X6RhkWG/113n4/SrtM1LUclM6OrP/Se5aPHHvAPG1iVQ==
