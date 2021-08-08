@@ -32,7 +32,7 @@
 </details>
 
 <!-- Dashed -->
-<Block title="Outline">
+<Block title="Dashed">
   <SZButton type="primary" dashed>Button</SZButton>
 </Block>
 

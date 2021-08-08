@@ -1,20 +1,23 @@
 <template>
    <section class="block">
      <span>{{title}}</span>
-     <div class="content">
+     <div class="content" :style="`gap:${gap}px`">
       <slot/>
      </div>
    </section>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
-export default defineComponent({
+export default {
     name: 'Block',
     props: {
       title: String,
+      gap: {
+        type: Number,
+        default: 10,
+      }
     }
-})
+}
 </script>
 
 <style scoped>
